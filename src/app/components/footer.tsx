@@ -11,22 +11,22 @@ const Footer = () => {
           <ul className="flex flex-col items-center gap-2 text-body-lg tablet:text-body-sm tablet:items-start">
             <li>
               <LinkButton size="small" path="/products/medical-gadgets">
-                Ăn sáng
+                Gym
               </LinkButton>
             </li>
             <li>
               <LinkButton size="small" path="/products/dietary-supplement">
-                Ăn trưa
+                Yoga
               </LinkButton>
             </li>
             <li>
               <LinkButton size="small" path="/products/medicines">
-                Ăn vặt
+                Home Gym
               </LinkButton>
             </li>
             <li>
               <LinkButton size="small" path="/products/covid">
-                Cà phê
+                Clothes
               </LinkButton>
             </li>
           </ul>

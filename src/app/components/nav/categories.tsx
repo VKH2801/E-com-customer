@@ -3,30 +3,26 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import CategoryBox from "./categoryBox";
 export const categoriesList = [
   {
-    label: "Ăn sáng",
+    label: "Gym",
 
     description: "This property is close to the beach!",
   },
   {
-    label: "Ăn trưa",
+    label: "Yoga",
 
     description: "This property is has windmills!",
   },
   {
-    label: "Ăn vặt",
+    label: "Home Gym",
 
     description: "This property is modern!",
   },
   {
-    label: "Cà phê",
+    label: "Clothes",
 
     description: "This property is in the countryside!",
   },
-  {
-    label: "Làm đẹp",
-
-    description: "This property is in the countryside!",
-  },
+  
 ];
 const Categories = () => {
   const params = useSearchParams();
