@@ -51,12 +51,7 @@ function Navbar() {
         </Container>
       </div>
       <Categories />
-      <div
-        className="w-screen
-      "
-      >
-        <img src="/images/bg.png" alt="Moving Image" className="w-full" />
-      </div>
+      
     </div>
   );
 }

@@ -23,26 +23,35 @@ module.exports = {
       tablet: "768px",
       laptop: "1024px",
       large: "1280px",
-      huge: "1536px"
+      huge: "1536px",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
       pops: ["Poppins", "sans-serif"],
     },
 
-    extend: { 
+    extend: {
       colors: {
         primary: "#1D3E9C",
         dark_primary: "#132866",
         secondary: "#FDCD00",
         pumpkin: "#FF6D3B",
+        red: "#FF0000",
         light_grey: "#f9f9f9",
         accent_light: "#FE99C5",
         accent_dark: "#8FD8B5",
         border_light: "#FFFFFF",
         border_dark: "#484848",
         border_gray: "#EBE8F4",
-        border_dark: "#CAC6DA"
+        border_dark: "#CAC6DA",
+        "light-white": {
+          DEFAULT: "rgba(59,60,152,0.03)",
+          100: "rgba(59,60,152,0.02)",
+        },
+        "primary-blue": {
+          DEFAULT: "#2B59FF",
+          100: "#F5F8FF",
+        },
       },
       spacing: {
         1: "1px",
@@ -83,7 +92,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-  ],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

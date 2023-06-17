@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="w-full py-5 tablet:px-8 tablet:flex tablet:flex-row tablet:items-center">
         {/* copyright */}
         <p className="text-body-sm text-white text-center mr-auto">
-          Copyright 2023 Any.Food
+          Copyright 2023 Yoga Tiles
         </p>
       </div>
     </div>

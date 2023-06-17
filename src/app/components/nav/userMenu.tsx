@@ -24,7 +24,7 @@ function UserMenu() {
 
   /**Init contract */
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const provider = new ethers.providers.Web3Provider(window.ethereum);
+  const provider =((window.ethereum != null) ? new ethers.providers.Web3Provider(window.ethereum): ethers.providers.getDefaultProvider());
   const addressToken = "0x3A54a26f812A163113C298090aa35Ef084aE5ad7";
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const contractToken = new ethers.Contract(addressToken, tokenAbi, provider);

@@ -18,7 +18,7 @@ const Logo = () => {
         width="50"
         alt="Logo"
       />
-      <div className="ml-2 font-pops h5 text-primary font-bold">Any . Food</div>
+      <div className="ml-2 font-pops h5 text-primary font-bold">Yoga Tiles</div>
     </div>
   );
 };
